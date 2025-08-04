@@ -1,5 +1,6 @@
 <h1>Some interesting videos all around</h1>
 
+<div class="topics" id="data-structures">
 <h2>Data Structures:</h2>
 <ol>
   <li>
@@ -14,7 +15,9 @@
     </ul>
   </li>
 </ol>
+</div>
 
+<div class="topics" id="graphs">
 <h2>Graphs:</h2>
 
 <ol>
@@ -59,7 +62,7 @@
   
   <li>
     <strong>Floyd-Warshall's Algorithm</strong>
-    <p>Floyd-Warshal starts with creating a matrix and filling it with all the connected edges and its weights, after that iterates through it with for k in range (nNodes) { for i in range (nNodes) { for j in range (nNodes) }} comparing dist[i][j] > dist[i][k] + dist[k][j], if its true then alter dist[i][j]. Allowing negative edges.<br><b> Time complexity: O(V³).</b>
+    <p>Floyd-Warshall starts with creating a matrix and filling it with all the connected edges and its weights, after that iterates through it with <code>for k in range (nNodes) { for i in range (nNodes) { for j in range (nNodes) }} comparing dist[i][j] > dist[i][k] + dist[k][j], if its true then alter dist[i][j]</code>. Allowing negative edges.<br><b> Time complexity: O(V³).</b>
     </p>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=4OQeCuLYj-4&t=18s&pp=0gcJCa0JAYcqIYzv" target="_blank">Floyd-Warshall's Algorithm in 4</a></li>
@@ -103,7 +106,7 @@
   <li>
     <strong>Critical Path and Tasks</strong>
     <p>
-      To find the critical path, first calculate the earliest start (ES) and earliest finish (EF) for each task by using max(previous node's EF + edge weight) in forward traversal. Then, perform a backward traversal to find the latest start (LS) and latest finish (LF) using min(next node's LS - edge weight). Once both values are known, subtract LS - ES (or LF - EF) to compute task slack. Tasks with zero slack lie on the critical path.
+      To find the critical path, first calculate the earliest start (ES) and earliest finish (EF) for each task by using <code>max(previous node's EF + edge weight)</code> in forward traversal. Then, perform a backward traversal to find the latest start (LS) and latest finish (LF) using <code>min(next node's LS - edge weight)</code>. Once both values are known, subtract <code>LS - ES (or LF - EF)</code> to compute task slack. Tasks with zero slack lie on the critical path.
 Note: This assumes task durations are modeled in the edges, not the nodes.
     </p>
     <ul>
@@ -122,8 +125,7 @@ Note: This assumes task durations are modeled in the edges, not the nodes.
     </ul>
   </li>
 </ol>
-
-
+</div>
 
 
 
