@@ -93,6 +93,7 @@
     Edmonds-Karp's Algorithm
     <p>
       Edmonds-Karp is an implementation of Ford-Fulkerson that uses BFS instead of DFS to find the shortest augmenting path (by edge count). <br><b> Time complexity: O(V × E²).</b>
+    </p>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=RppuJYwlcI8">Edmonds Karp Algorithm | Network Flow | Graph Theory</a></li>
       <li><a href="https://www.youtube.com/watch?v=GiN3jRdgxU4&t=983s">Ford Fulkerson Algorithm Edmonds Karp Algorithm For Max Flow</a></li>
@@ -121,6 +122,7 @@ Note: This assumes task durations are modeled in the edges, not the nodes.
     </ul>
   </li>
 </ol>
+
 
 
 
