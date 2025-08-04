@@ -2,13 +2,15 @@
 
 <h2>Data Structures:</h2>
 <ol>
-  <li>Heaps</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=WsNQuCa_-PU&t=136s"> Heap - Build Max Heap </a></li>
-    <li><a href="https://www.youtube.com/watch?v=5iBUTMWGtIQ&t=217s"> Heap - Max Heapify </a></li>
-    <li><a href="https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=241s"> Data Structures: Heaps </a></li>
-    <li><a href="https://www.youtube.com/watch?v=cuL8gXCSA58&t=784s"> Heapify Algorithm | Max Heapify | Min Heapify </a></li>
-  </ul>
+  <li>
+    Heaps
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=WsNQuCa_-PU&t=136s"> Heap - Build Max Heap </a></li>
+      <li><a href="https://www.youtube.com/watch?v=5iBUTMWGtIQ&t=217s"> Heap - Max Heapify </a></li>
+      <li><a href="https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=241s"> Data Structures: Heaps </a></li>
+      <li><a href="https://www.youtube.com/watch?v=cuL8gXCSA58&t=784s"> Heapify Algorithm | Max Heapify | Min Heapify </a></li>
+    </ul>
+  </li>
 </ol>
 
 <h2>Graphs:</h2>
@@ -63,5 +65,6 @@
     <li><a href="https://www.youtube.com/watch?v=fudb8DuzQlM&t=303s"> Residency Match (Stable Marriage Problem, Gale-Shapley Algorithm) </a></li>
   </ul>
 </ol>
+
 
 
