@@ -57,7 +57,7 @@
   <li>
     Bellman-Ford's Algorithm
     <ul>
-      <li><a href="https://www.youtube.com/watch?v=9PHkk0UavIM">Bellman-Ford in 4 — Teory</a></li>
+      <li><a href="https://www.youtube.com/watch?v=9PHkk0UavIM">Bellman-Ford in 4 — Theory</a></li>
       <li><a href="https://www.youtube.com/watch?v=obWXjtg0L64">Bellman-Ford in 5 — Step by step</a></li>
     </ul>
   </li>
@@ -96,3 +96,4 @@
     </ul>
   </li>
 </ol>
+
