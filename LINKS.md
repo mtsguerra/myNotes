@@ -14,57 +14,89 @@
 </ol>
 
 <h2>Graphs:</h2>
+
 <ol>
-  <li>Dijkstra's alg</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=_lHSawdgXpI">Dijkstra's Algorithm in 3 </a></li>
-    <li><a href="https://www.youtube.com/watch?v=bZkzH5x0SKU"> Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory </a></li>
-  </ul>
-  <li>Kosaraju's alg</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=QlGuaHT1lzA&t=126s">Kosaraju's Algorithm | Strongly Connected Components </a></li>
-  </ul>
-  <li>Prim's alg</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=Uj47dxYPow8&t=89s">Prim's Algorithm: Minimum Spanning Tree (MST) </a></li>
-    <li><a href="https://www.youtube.com/watch?v=cplfcGZmX7I">Prim's Algorithm in 2 </a></li>
-  </ul>
-  <li>Kruskal's alg</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=71UQH7Pr9kU">Kruskal's Algorithm in 2</a></li>
-  </ul>
-  <li>Floyd-Warshall</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=4OQeCuLYj-4&t=18s&pp=0gcJCa0JAYcqIYzv">Floyd-Warshal's Algorithm in 4 </a></li>
-  </ul>
-  <li>Bellman-Ford</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=9PHkk0UavIM">Bellman-Ford in 4 — Teory </a></li>
-    <li><a href="https://www.youtube.com/watch?v=obWXjtg0L64">Bellman-Ford in 5 — Step by step </a></li>
-  </ul>
-  <li>Ford-Fullkerson</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=LdOnanfc5TM&t=9s">Max Flow Ford Fulkerson | Network Flow | Graph Theory</a></li>
-    <li><a href="https://www.youtube.com/watch?v=Xu8jjJnwvxE&t=642s">Max Flow Ford Fulkerson | Source Code </a></li>
-    <li><a href="https://www.youtube.com/watch?v=Tl90tNtKvxs&t=38s">Ford Fullkerson in 5</a></li>
-    <li><a href="https://www.youtube.com/watch?v=sT9dpVRKrQY&t=371s">Max Flow | Ford-Fulkerson Algorithm Explained and Implemented in Java | Graph Theory | Geekific </a></li>
-    <li><a href="https://www.youtube.com/watch?v=GOwt6cISaG4">The Ford-Fulkerson Algorithm </a></li>
-  </ul>
-  <li>Edmonds-Karp</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=RppuJYwlcI8">Edmonds Karp Algorithm | Network Flow | Graph Theory </a></li>
-    <li><a href="https://www.youtube.com/watch?v=GiN3jRdgxU4&t=983s">Ford Fulkerson Algorithm Edmonds Karp Algorithm For Max Flow </a></li>
-  </ul>
-  <li>Critical Path and Tasks</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=qEhBgNn6pYk"> Earliest start, finish and latest start, finish time </a></li>
-    <li><a href="https://www.youtube.com/watch?v=SLYW4nVejXM&t=796s"> total float | free float| independent float|interference float| network analysis|| pert and cpm </a></li>
-  </ul>
-  <li>Stable marriage</li>
-  <ul>
-    <li><a href="https://www.youtube.com/watch?v=fudb8DuzQlM&t=303s"> Residency Match (Stable Marriage Problem, Gale-Shapley Algorithm) </a></li>
-  </ul>
+  
+  <li>
+    Dijkstra's alg
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=_lHSawdgXpI">Dijkstra's Algorithm in 3 </a></li>
+      <li><a href="https://www.youtube.com/watch?v=bZkzH5x0SKU"> Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Kosaraju's alg
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=QlGuaHT1lzA&t=126s">Kosaraju's Algorithm | Strongly Connected Components </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Prim's alg
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=Uj47dxYPow8&t=89s">Prim's Algorithm: Minimum Spanning Tree (MST) </a></li>
+      <li><a href="https://www.youtube.com/watch?v=cplfcGZmX7I">Prim's Algorithm in 2 </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Kruskal's alg
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=71UQH7Pr9kU">Kruskal's Algorithm in 2</a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Floyd-Warshall
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=4OQeCuLYj-4&t=18s&pp=0gcJCa0JAYcqIYzv">Floyd-Warshal's Algorithm in 4 </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Bellman-Ford
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=9PHkk0UavIM">Bellman-Ford in 4 — Teory </a></li>
+      <li><a href="https://www.youtube.com/watch?v=obWXjtg0L64">Bellman-Ford in 5 — Step by step </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Ford-Fullkerson
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=LdOnanfc5TM&t=9s">Max Flow Ford Fulkerson | Network Flow | Graph Theory</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Xu8jjJnwvxE&t=642s">Max Flow Ford Fulkerson | Source Code </a></li>
+      <li><a href="https://www.youtube.com/watch?v=Tl90tNtKvxs&t=38s">Ford Fullkerson in 5</a></li>
+      <li><a href="https://www.youtube.com/watch?v=sT9dpVRKrQY&t=371s">Max Flow | Ford-Fulkerson Algorithm Explained and Implemented in Java | Graph Theory | Geekific </a></li>
+      <li><a href="https://www.youtube.com/watch?v=GOwt6cISaG4">The Ford-Fulkerson Algorithm </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Edmonds-Karp
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=RppuJYwlcI8">Edmonds Karp Algorithm | Network Flow | Graph Theory </a></li>
+      <li><a href="https://www.youtube.com/watch?v=GiN3jRdgxU4&t=983s">Ford Fulkerson Algorithm Edmonds Karp Algorithm For Max Flow </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Critical Path and Tasks
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=qEhBgNn6pYk"> Earliest start, finish and latest start, finish time </a></li>
+      <li><a href="https://www.youtube.com/watch?v=SLYW4nVejXM&t=796s"> total float | free float| independent float|interference float| network analysis|| pert and cpm </a></li>
+    </ul>
+  </li>
+  
+  <li>
+    Stable marriage
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=fudb8DuzQlM&t=303s"> Residency Match (Stable Marriage Problem, Gale-Shapley Algorithm) </a></li>
+    </ul>
+  </li>
 </ol>
+
 
 
 
