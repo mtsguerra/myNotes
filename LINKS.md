@@ -58,5 +58,10 @@
     <li><a href="https://www.youtube.com/watch?v=qEhBgNn6pYk"> Earliest start, finish and latest start, finish time </a></li>
     <li><a href="https://www.youtube.com/watch?v=SLYW4nVejXM&t=796s"> total float | free float| independent float|interference float| network analysis|| pert and cpm </a></li>
   </ul>
+  <li>Stable marriage</li>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=fudb8DuzQlM&t=303s"> Residency Match (Stable Marriage Problem, Gale-Shapley Algorithm) </a></li>
+  </ul>
 </ol>
+
 
