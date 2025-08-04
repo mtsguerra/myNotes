@@ -18,7 +18,7 @@
 <ol>
   
   <li>
-    Dijkstra's alg
+    Dijkstra's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=_lHSawdgXpI">Dijkstra's Algorithm in 3</a></li>
       <li><a href="https://www.youtube.com/watch?v=bZkzH5x0SKU">Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory</a></li>
@@ -26,14 +26,14 @@
   </li>
   
   <li>
-    Kosaraju's alg
+    Kosaraju's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=QlGuaHT1lzA&t=126s">Kosaraju's Algorithm | Strongly Connected Components</a></li>
     </ul>
   </li>
   
   <li>
-    Prim's alg
+    Prim's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=Uj47dxYPow8&t=89s">Prim's Algorithm: Minimum Spanning Tree (MST)</a></li>
       <li><a href="https://www.youtube.com/watch?v=cplfcGZmX7I">Prim's Algorithm in 2</a></li>
@@ -41,21 +41,21 @@
   </li>
   
   <li>
-    Kruskal's alg
+    Kruskal's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=71UQH7Pr9kU">Kruskal's Algorithm in 2</a></li>
     </ul>
   </li>
   
   <li>
-    Floyd-Warshall
+    Floyd-Warshall's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=4OQeCuLYj-4&t=18s&pp=0gcJCa0JAYcqIYzv">Floyd-Warshal's Algorithm in 4</a></li>
     </ul>
   </li>
   
   <li>
-    Bellman-Ford
+    Bellman-Ford's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=9PHkk0UavIM">Bellman-Ford in 4 — Teory</a></li>
       <li><a href="https://www.youtube.com/watch?v=obWXjtg0L64">Bellman-Ford in 5 — Step by step</a></li>
@@ -63,7 +63,7 @@
   </li>
   
   <li>
-    Ford-Fullkerson
+    Ford-Fullkerson's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=LdOnanfc5TM&t=9s">Max Flow Ford Fulkerson | Network Flow | Graph Theory</a></li>
       <li><a href="https://www.youtube.com/watch?v=Xu8jjJnwvxE&t=642s">Max Flow Ford Fulkerson | Source Code</a></li>
@@ -74,7 +74,7 @@
   </li>
   
   <li>
-    Edmonds-Karp
+    Edmonds-Karp's Algorithm
     <ul>
       <li><a href="https://www.youtube.com/watch?v=RppuJYwlcI8">Edmonds Karp Algorithm | Network Flow | Graph Theory</a></li>
       <li><a href="https://www.youtube.com/watch?v=GiN3jRdgxU4&t=983s">Ford Fulkerson Algorithm Edmonds Karp Algorithm For Max Flow</a></li>
@@ -96,6 +96,7 @@
     </ul>
   </li>
 </ol>
+
 
 
 
