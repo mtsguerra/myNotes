@@ -77,7 +77,7 @@
   </li>
   
   <li>
-    Ford-Fullkerson's Algorithm
+    Ford-Fulkerson's Algorithm
     <p>Ford-Fulkerson find the max flow from a source node to a sink node, the paths can be random or not for efficiency, as the paths are being chosen it creates a residual graph that consists in the capacity edge from a node to another and a reverse edge that will represent the current flow in the nodes (can be undone), the ford-fulkerson iterates through out the possible paths until there's no more path between the source and sink, finding then the max flow.<br><b>Time complexity:O(E × f), f being the max flow.</b>
 </p>
     <ul>
@@ -121,6 +121,7 @@ Note: This assumes task durations are modeled in the edges, not the nodes.
     </ul>
   </li>
 </ol>
+
 
 
 
