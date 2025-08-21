@@ -38,7 +38,6 @@
           <li><a href="https://www.youtube.com/watch?v=bZkzH5x0SKU" target="_blank">Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory</a></li>
         </ul>
     </li>
-  
     <li>
         <strong>Kosaraju's Algorithm</strong>
         <p>Kosaraju’s algorithm finds strongly connected components (SCCs) in a directed graph. It first performs a DFS to fill a stack with vertices in post-order, then reverses all edges and performs DFS again in stack order, finding the SCCs. <br><b>Time complexity: O(V + E).</b>
@@ -47,7 +46,7 @@
           <li><a href="https://www.youtube.com/watch?v=QlGuaHT1lzA&t=126s" target="_blank">Kosaraju's Algorithm | Strongly Connected Components</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Prim's Algorithm</strong>
         <p>Prim’s algorithm builds a minimum spanning tree by starting at any node, then repeatedly adding the smallest edge between all the edges that are connected to the visited nodes without creating cycles.<br><b> Time complexity: O(V log V + E log V).</b>
@@ -57,7 +56,7 @@
           <li><a href="https://www.youtube.com/watch?v=cplfcGZmX7I" target="_blank">Prim's Algorithm in 2</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Kruskal's Algorithm</strong>
         <p>Kruskal’s algorithm builds a minimum spanning tree by sorting all edges by weight and connecting the smallest ones first, without forming a cycle. A union-find structure is typically used.<br><b>Time complexity: O(E log E).</b>
@@ -66,7 +65,7 @@
           <li><a href="https://www.youtube.com/watch?v=71UQH7Pr9kU" target="_blank">Kruskal's Algorithm in 2</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Floyd-Warshall's Algorithm</strong>
         <p>Floyd-Warshall starts with creating a matrix and filling it with all the connected edges and its weights, after that iterates through it with <code>for k in range (nNodes) { for i in range (nNodes) { for j in range (nNodes) }} comparing dist[i][j] > dist[i][k] + dist[k][j], if its true then alter dist[i][j]</code>. Allowing negative edges.<br><b> Time complexity: O(V³).</b>
@@ -75,7 +74,7 @@
           <li><a href="https://www.youtube.com/watch?v=4OQeCuLYj-4&t=18s&pp=0gcJCa0JAYcqIYzv" target="_blank">Floyd-Warshall's Algorithm in 4</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Bellman-Ford's Algorithm</strong>
         <p>Bellman-Ford finds the shortest path from a starting node to all others. It relaxes all edges (V - 1) times and supports graphs with negative edge weights (but not negative cycles).<br><b> Time complexity: O(V × E).</b>
@@ -85,7 +84,7 @@
           <li><a href="https://www.youtube.com/watch?v=obWXjtg0L64" target="_blank">Bellman-Ford in 5 — Step by step</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Ford-Fulkerson's Algorithm</strong>
         <p>Ford-Fulkerson find the max flow from a source node to a sink node, the paths can be random or not for efficiency, as the paths are being chosen it creates a residual graph that consists in the capacity edge from a node to another and a reverse edge that will represent the current flow in the nodes (can be undone), the ford-fulkerson iterates through out the possible paths until there's no more path between the source and sink, finding then the max flow.<br><b>Time complexity:O(E × f), f being the max flow.</b>
@@ -98,7 +97,7 @@
           <li><a href="https://www.youtube.com/watch?v=GOwt6cISaG4" target="_blank">The Ford-Fulkerson Algorithm</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Edmonds-Karp's Algorithm</strong>
         <p>
@@ -109,7 +108,7 @@
           <li><a href="https://www.youtube.com/watch?v=GiN3jRdgxU4&t=983s" target="_blank">Ford Fulkerson Algorithm Edmonds Karp Algorithm For Max Flow</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Critical Path and Tasks</strong>
         <p>
@@ -121,7 +120,7 @@
           <li><a href="https://www.youtube.com/watch?v=SLYW4nVejXM&t=796s" target="_blank">Total float | free float| independent float|interference float| network analysis|| pert and cpm</a></li>
         </ul>
     </li>
-  
+    <br>
     <li>
         <strong>Stable Marriage</strong>
         <p>
