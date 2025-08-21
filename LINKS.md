@@ -29,7 +29,7 @@
 <div class="topics" id="graphs">
 <h2>Graphs:</h2>
 <ol>
-    <li>
+    <li id="dijkstra">
         <strong>Dijkstra's Algorithm</strong>
         <p>Dijkstra’s algorithm finds the shortest distance from a starting node to all other nodes in a graph. It maintains a priority queue of nodes, always expanding the node with the smallest known distance. It works well with non-negative edge weights and it's a greedy type ig. <br><b>Time complexity: O(|E| + |V| log |V|).</b>
         </p>
@@ -38,7 +38,8 @@
           <li><a href="https://www.youtube.com/watch?v=bZkzH5x0SKU" target="_blank">Dijkstras Shortest Path Algorithm Explained | With Example | Graph Theory</a></li>
         </ul>
     </li>
-    <li>
+    <br>
+    <li id="kosaraju">
         <strong>Kosaraju's Algorithm</strong>
         <p>Kosaraju’s algorithm finds strongly connected components (SCCs) in a directed graph. It first performs a DFS to fill a stack with vertices in post-order, then reverses all edges and performs DFS again in stack order, finding the SCCs. <br><b>Time complexity: O(V + E).</b>
         </p>
@@ -47,7 +48,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="prim">
         <strong>Prim's Algorithm</strong>
         <p>Prim’s algorithm builds a minimum spanning tree by starting at any node, then repeatedly adding the smallest edge between all the edges that are connected to the visited nodes without creating cycles.<br><b> Time complexity: O(V log V + E log V).</b>
         </p>
@@ -57,7 +58,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="kruskal">
         <strong>Kruskal's Algorithm</strong>
         <p>Kruskal’s algorithm builds a minimum spanning tree by sorting all edges by weight and connecting the smallest ones first, without forming a cycle. A union-find structure is typically used.<br><b>Time complexity: O(E log E).</b>
         </p>
@@ -66,7 +67,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="floyd-warshall">
         <strong>Floyd-Warshall's Algorithm</strong>
         <p>Floyd-Warshall starts with creating a matrix and filling it with all the connected edges and its weights, after that iterates through it with <code>for k in range (nNodes) { for i in range (nNodes) { for j in range (nNodes) }} comparing dist[i][j] > dist[i][k] + dist[k][j], if its true then alter dist[i][j]</code>. Allowing negative edges.<br><b> Time complexity: O(V³).</b>
         </p>
@@ -75,7 +76,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="bellman-ford">
         <strong>Bellman-Ford's Algorithm</strong>
         <p>Bellman-Ford finds the shortest path from a starting node to all others. It relaxes all edges (V - 1) times and supports graphs with negative edge weights (but not negative cycles).<br><b> Time complexity: O(V × E).</b>
         </p>
@@ -85,7 +86,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="ford-fulkerson">
         <strong>Ford-Fulkerson's Algorithm</strong>
         <p>Ford-Fulkerson find the max flow from a source node to a sink node, the paths can be random or not for efficiency, as the paths are being chosen it creates a residual graph that consists in the capacity edge from a node to another and a reverse edge that will represent the current flow in the nodes (can be undone), the ford-fulkerson iterates through out the possible paths until there's no more path between the source and sink, finding then the max flow.<br><b>Time complexity:O(E × f), f being the max flow.</b>
         </p>
@@ -98,7 +99,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="edmonds-karp">
         <strong>Edmonds-Karp's Algorithm</strong>
         <p>
           Edmonds-Karp is an implementation of Ford-Fulkerson that uses BFS instead of DFS to find the shortest augmenting path (by edge count). <br><b> Time complexity: O(V × E²).</b>
@@ -109,7 +110,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="critical-path">
         <strong>Critical Path and Tasks</strong>
         <p>
           To find the critical path, first calculate the earliest start (ES) and earliest finish (EF) for each task by using <code>max(previous node's EF + edge weight)</code> in forward traversal. Then, perform a backward traversal to find the latest start (LS) and latest finish (LF) using <code>min(next node's LS - edge weight)</code>. Once both values are known, subtract <code>LS - ES (or LF - EF)</code> to compute task slack. Tasks with zero slack lie on the critical path.
@@ -121,7 +122,7 @@
         </ul>
     </li>
     <br>
-    <li>
+    <li id="stable-marriage">
         <strong>Stable Marriage</strong>
         <p>
           The Gale-Shapley algorithm solves the Stable Marriage Problem by repeatedly proposing and matching candidates based on preferences, ensuring a stable matching where no two individuals would rather be with each other than with their assigned partners.
