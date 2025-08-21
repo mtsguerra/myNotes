@@ -3,17 +3,25 @@
 <div class="topics" id="data-structures">
 <h2>Data Structures:</h2>
 <ol>
-  <li>
-    <strong>Heaps</strong>
-    <p>Heaps are specialized binary trees used as the foundation for Priority queues, where it always follows a condition, for example max heap always has the child node smaller than the parent.
-    </p>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=WsNQuCa_-PU&t=136s" target="_blank">Heap - Build Max Heap</a></li>
-      <li><a href="https://www.youtube.com/watch?v=5iBUTMWGtIQ&t=217s" target="_blank">Heap - Max Heapify</a></li>
-      <li><a href="https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=241s" target="_blank">Data Structures: Heaps</a></li>
-      <li><a href="https://www.youtube.com/watch?v=cuL8gXCSA58&t=784s" target="_blank">Heapify Algorithm | Max Heapify | Min Heapify</a></li>
-    </ul>
-  </li>
+    <li>
+        <strong>Heaps</strong>
+        <p>Heaps are specialized binary trees used as the foundation for Priority queues, where it always follows a condition, for example max heap always has the child node smaller than the parent.
+        </p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=WsNQuCa_-PU&t=136s" target="_blank">Heap - Build Max Heap</a></li>
+          <li><a href="https://www.youtube.com/watch?v=5iBUTMWGtIQ&t=217s" target="_blank">Heap - Max Heapify</a></li>
+          <li><a href="https://www.youtube.com/watch?v=t0Cq6tVNRBA&t=241s" target="_blank">Data Structures: Heaps</a></li>
+          <li><a href="https://www.youtube.com/watch?v=cuL8gXCSA58&t=784s" target="_blank">Heapify Algorithm | Max Heapify | Min Heapify</a></li>
+        </ul>
+    </li>
+    <li>
+        <strong>Monotonic Stack</strong>
+        <p>Monotonic stacks are used to maintain a stack of elements in a specific order, either increasing or decreasing. They are useful for problems that require finding the next greater or smaller element efficiently.
+        </p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=Dq_ObZwTY_Q&t=190s" target="_blank"> Monotonic Stack Data Structure Explained </a></li>
+        </ul>
+    </li>
 </ol>
 </div>
 
