@@ -1,8 +1,6 @@
 <h1>Some interesting videos all around</h1>
 
 <div class="topics" id="data-structures">
-<h1>Data Structures:</h1>
-<br>
 <h2>Stacks&Queues</h2>
 <ol>
     <li id="monotonic-stack">
