@@ -14,7 +14,7 @@
           <li><a href="https://www.youtube.com/watch?v=cuL8gXCSA58&t=784s" target="_blank">Heapify Algorithm | Max Heapify | Min Heapify</a></li>
         </ul>
     </li>
-    <br><br>
+    <br>
     <li>
         <strong>Monotonic Stack</strong>
         <p>Monotonic stacks are used to maintain a stack of elements in a specific order, either increasing or decreasing. They are useful for problems that require finding the next greater or smaller element efficiently.
