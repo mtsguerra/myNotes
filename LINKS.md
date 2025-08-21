@@ -1,7 +1,23 @@
 <h1>Some interesting videos all around</h1>
 
 <div class="topics" id="data-structures">
-<h2>Data Structures:</h2>
+<h1>Data Structures:</h1>
+<br>
+<h2>Stacks&Queues</h2>
+<ol>
+    <li id="monotonic-stack">
+        <strong>Monotonic Stack</strong>
+        <p>Monotonic stacks are used to maintain a stack of elements in a specific order, either increasing or decreasing. They are useful for problems that require finding the next greater or smaller element efficiently.
+        </p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=Dq_ObZwTY_Q&t=190s" target="_blank"> Monotonic Stack Data Structure Explained </a></li>
+        </ul>
+    </li>
+</ol>
+</div>
+
+<div class="topics" id="trees">
+<h2>Trees:</h2>
 <ol>
     <li id="heaps">
         <strong>Heaps</strong>
@@ -15,14 +31,17 @@
         </ul>
     </li>
     <br>
-    <li id="monotonic-stack">
-        <strong>Monotonic Stack</strong>
-        <p>Monotonic stacks are used to maintain a stack of elements in a specific order, either increasing or decreasing. They are useful for problems that require finding the next greater or smaller element efficiently.
+    <li id="Trie">
+        <strong>Trie</strong>
+        <p>Trie is a tree-like data structure used for storing strings, where each node represents a character. It allows for efficient prefix searching and is commonly used in autocomplete systems and spell checkers.
         </p>
         <ul>
-          <li><a href="https://www.youtube.com/watch?v=Dq_ObZwTY_Q&t=190s" target="_blank"> Monotonic Stack Data Structure Explained </a></li>
+            <li><a href="https://www.youtube.com/watch?v=zIjfhVPRZCg" target="_blank">Data Structures: Tries </a></li>
+            <li><a href="https://www.youtube.com/watch?v=oobqoCJlHA0&t=927s" target="_blank">Implement Trie (Prefix Tree) - Leetcode 208 </a></li>
+            <li><a href="https://www.youtube.com/watch?v=c1lX6ntrj64&t=103s" target="_blank">How to implement Trie in Java ? | Implementation </a></li>
         </ul>
     </li>
+    <br>
 </ol>
 </div>
 
