@@ -153,6 +153,6 @@
 
 
 //
-<a href="https://www.youtube.com/watch?v=NUWAXbSlsws" target="_blank">Earliest start, finish and latest start, finish time</a>
+<a href="https://www.youtube.com/watch?v=NUWAXbSlsws" target="_blank">Kadane algorithm</a>
 
 
