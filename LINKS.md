@@ -153,6 +153,9 @@
 
 
 //
+
 <a href="https://www.youtube.com/watch?v=NUWAXbSlsws" target="_blank">Kadane algorithm</a>
+
+<a href="https://www.youtube.com/watch?v=CWDQJGaN1gY" target="_blank">Fenwick tree</a>
 
 
